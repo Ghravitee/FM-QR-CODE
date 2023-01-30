@@ -1,0 +1,18 @@
+.card {
+   &__text--heading {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--Dark-Blue);
+      line-height: 1.2;
+      margin-bottom: 1rem;
+   }
+
+   &__text--paragraph {
+      color: var(--Grayish-Blue);
+      max-width: 17rem;
+      margin: 0 auto;
+      font-weight: 400;
+      margin-bottom: var(--spacer);
+      line-height: 1.2;
+   }
+}

@@ -1,0 +1,20 @@
+body {
+  background-color: var(--Light-Gray);
+  text-align: center;
+  font-family: var(--ff-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 20.3125rem;
+  padding: 1rem;
+  background: var(--White);
+  gap: 1.1rem;
+  border-radius: var(--br);
+}
